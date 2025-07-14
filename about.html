@@ -2,31 +2,36 @@
 <html lang="ms">
 <head>
   <meta charset="UTF-8">
-  <title>Tentang Saya</title>
-  <link rel="stylesheet" href="style.css">
+  <title>About Me</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-  <div class="container">
-    <img src="images/ipin.jpg" alt="Gambar Profil" width="100" height="100" class="profile-img">
-    <h1>Nama Anda</h1>
-    <h3>Web Developer | Elixir & Phoenix Enthusiast</h3>
+<body class="font-sans text-[#2E2E2E] bg-[#FAFAFA] m-0 p-0">
+  <div class="max-w-[700px] mx-auto my-10 px-6 py-8 bg-white rounded-[10px] shadow-md text-center">
+    
+    <img src="images/ipin.jpg" alt="Gambar Profil" 
+         class="w-[100px] h-[100px] rounded-full object-cover mb-4 border-[3px] border-[#2E2E2E] mx-auto">
 
-    <section>
-      <h2>Tentang Saya</h2>
-      <p>
-        Hai! Saya seorang pembangun perisian yang meminati teknologi backend dan realtime. Saya mempunyai pengalaman menggunakan <strong>Elixir</strong>, <strong>Phoenix LiveView</strong>, dan sistem web berskala tinggi. Matlamat saya adalah membina aplikasi yang ringkas, stabil dan pantas.
+    <h1 class="text-2xl font-mono mb-1">NUR SHARLEYN BINTI ANAS</h1>
+    <h3 class="text-lg text-gray-600 font-normal">Web Developer | Elixir & Phoenix Enthusiast</h3>
+
+    <section class="text-left mt-8">
+      <h2 class="text-xl font-bold text-gray-800 border-b-2 border-gray-300 pb-2 mb-4">About Me</h2>
+      <p class="text-base leading-relaxed">
+        Hai! Saya seorang pembangun perisian yang meminati teknologi backend dan realtime. Saya mempunyai pengalaman menggunakan 
+        <strong>Elixir</strong>, <strong>Phoenix LiveView</strong>, dan sistem web berskala tinggi. Matlamat saya adalah membina aplikasi yang ringkas, stabil dan pantas.
       </p>
     </section>
 
-    <section>
-      <h2>Kemahiran</h2>
-      <ul>
+    <section class="text-left mt-8">
+      <h2 class="text-xl font-bold text-gray-800 border-b-2 border-gray-300 pb-2 mb-4">Kemahiran</h2>
+      <ul class="list-disc pl-6 text-base space-y-2">
         <li>Elixir & Phoenix Framework</li>
         <li>PostgreSQL & Ecto</li>
         <li>LiveView & Tailwind CSS</li>
         <li>Git & GitHub</li>
       </ul>
     </section>
+    
   </div>
 </body>
 </html>

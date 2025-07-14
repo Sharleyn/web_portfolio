@@ -3,25 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <title>Hubungi Saya</title>
-  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-  <div class="container">
-    <h1>Hubungi Saya</h1>
-    <p>Sila isi borang di bawah untuk menghubungi saya.</p>
-    
-    <form action="#" method="POST">
-      <label for="name">Nama:</label>
-      <input type="text" id="name" name="name" required>
+<body class="font-sans bg-[#FAFAFA] text-[#2E2E2E] m-0 p-0">
 
-      <label for="email">Emel:</label>
-      <input type="email" id="email" name="email" required>
+  <div class="max-w-[600px] mx-auto mt-12 mb-12 p-8 bg-white rounded-lg shadow-md">
+    <h1 class="text-2xl font-bold text-center text-[#333333] mb-2">Hubungi Saya</h1>
+    <p class="text-center text-base mb-6">Sila isi borang di bawah untuk menghubungi saya.</p>
 
-      <label for="message">Mesej:</label>
-      <textarea id="message" name="message" rows="5" required></textarea>
-
-      <button type="submit">Hantar</button>
-    </form>
-  </div>
-</body>
-</html>
+    <form action="#" method="POST" class="flex flex-col">
+      <label for="name" class="mt-4 mb-2 font-bold">Nama:</label>
+      <input 
+        type="text" 
